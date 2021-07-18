@@ -1,0 +1,9 @@
+[user]
+	name = Jasper de Laat
+	email = 51971405+JasperDeLaat94@users.noreply.github.com
+[init]
+	defaultbranch = main
+[pull]
+	rebase = true
+[core]
+	whitespace = trailing-space,space-before-tab,indent-with-non-tab,cr-at-eol
