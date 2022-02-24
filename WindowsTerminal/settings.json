@@ -78,12 +78,6 @@
                 "name": "Personal Website"
             },
             {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": true,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
                 "commandline": "ssh truenas",
                 "guid": "{cb595232-6200-4244-af77-fbfcb77a5fba}",
                 "hidden": false,
@@ -96,6 +90,13 @@
                 "hidden": false,
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
                 "name": "Valheim"
+            },
+            {
+                "commandline": "ssh satisfactory",
+                "guid": "{fe52a27e-5c17-4a30-a3bc-b82cd7b8cea9}",
+                "hidden": false,
+                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
+                "name": "Satisfactory"
             }
         ]
     },
