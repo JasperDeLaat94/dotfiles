@@ -12,6 +12,7 @@
             "closeOnExit": "always",
             "colorScheme": "Retro",
             "experimental.retroTerminalEffect": false,
+            "experimental.useAtlasEngine": true,
             "font": 
             {
                 "face": "mononoki Nerd Font Mono",
@@ -29,10 +30,10 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "commandline": "ssh pihole",
-                "guid": "{8430ab13-cf09-51a9-93e9-89c1b6081ecf}",
-                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\RPi-Logo-SCREEN.png",
-                "name": "Pi-hole"
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
             },
             {
                 "commandline": "ssh proxmox",
@@ -53,18 +54,6 @@
                 "name": "Helix Core"
             },
             {
-                "commandline": "ssh gitlab",
-                "guid": "{4b446167-3d72-5f66-ae0d-c36e67fded5d}",
-                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
-                "name": "GitLab"
-            },
-            {
-                "commandline": "ssh proxy",
-                "guid": "{6ee08d8a-a282-5349-a2b5-f44cdb4ef7f4}",
-                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
-                "name": "Proxy"
-            },
-            {
                 "commandline": "ssh nextcloud",
                 "guid": "{a1676a84-c1c7-5196-ba46-9175a338f92b}",
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
@@ -73,28 +62,18 @@
             {
                 "commandline": "ssh jasperdelaat",
                 "guid": "{f511eb69-a0c3-4fee-9d72-4bce39395ca3}",
-                "hidden": false,
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
                 "name": "Personal Website"
             },
             {
                 "commandline": "ssh truenas",
                 "guid": "{cb595232-6200-4244-af77-fbfcb77a5fba}",
-                "hidden": false,
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\truenas.png",
                 "name": "TrueNAS"
             },
             {
-                "commandline": "ssh valheim",
-                "guid": "{83c099e7-0449-4885-90aa-b027d6148b4c}",
-                "hidden": false,
-                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
-                "name": "Valheim"
-            },
-            {
                 "commandline": "ssh satisfactory",
                 "guid": "{fe52a27e-5c17-4a30-a3bc-b82cd7b8cea9}",
-                "hidden": false,
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
                 "name": "Satisfactory"
             }
