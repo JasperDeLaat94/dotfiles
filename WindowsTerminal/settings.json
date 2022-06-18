@@ -76,6 +76,13 @@
                 "guid": "{fe52a27e-5c17-4a30-a3bc-b82cd7b8cea9}",
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
                 "name": "Satisfactory"
+            },
+            {
+                "commandline": "ssh factorio",
+                "guid": "{83be53c0-a7ae-497a-9dea-b5170aa76ca6}",
+                "hidden": false,
+                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\CoF-2022_solid+O.png",
+                "name": "Factorio"
             }
         ]
     },
