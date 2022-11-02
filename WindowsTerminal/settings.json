@@ -5,6 +5,7 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "minimizeToNotificationArea": true,
     "profiles": 
     {
         "defaults": 
@@ -12,11 +13,10 @@
             "closeOnExit": "always",
             "colorScheme": "Retro",
             "experimental.retroTerminalEffect": false,
-            "experimental.useAtlasEngine": true,
             "font": 
             {
                 "face": "mononoki Nerd Font Mono",
-                "size": 13
+                "size": 13.0
             },
             "opacity": 50,
             "useAcrylic": true
@@ -24,6 +24,7 @@
         "list": 
         [
             {
+                "elevate": false,
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
@@ -62,7 +63,7 @@
             {
                 "commandline": "ssh jasperdelaat",
                 "guid": "{f511eb69-a0c3-4fee-9d72-4bce39395ca3}",
-                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
+                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\CoF-2022_solid+O.png",
                 "name": "Personal Website"
             },
             {
@@ -80,9 +81,14 @@
             {
                 "commandline": "ssh factorio",
                 "guid": "{83be53c0-a7ae-497a-9dea-b5170aa76ca6}",
-                "hidden": false,
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\CoF-2022_solid+O.png",
                 "name": "Factorio"
+            },
+            {
+                "commandline": "ssh docker",
+                "guid": "{18fd6fb2-d14e-49b2-8eff-7a97ae9d7660}",
+                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\Fedora_icon_2021.png",
+                "name": "Docker"
             }
         ]
     },
@@ -320,5 +326,7 @@
         }
     ],
     "tabSwitcherMode": "inOrder",
-    "useAcrylicInTabRow": true
+    "themes": [],
+    "useAcrylicInTabRow": true,
+    "windowingBehavior": "useAnyExisting"
 }
