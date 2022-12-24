@@ -16,7 +16,7 @@
             "font": 
             {
                 "face": "mononoki Nerd Font Mono",
-                "size": 13.0
+                "size": 13
             },
             "opacity": 50,
             "useAcrylic": true
@@ -37,19 +37,19 @@
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "commandline": "ssh proxmox",
+                "commandline": "ssh alfa",
                 "guid": "{488a9bba-4b8a-5d86-ae65-fadf4f2879a0}",
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\4691418_proxmox_icon.png",
-                "name": "Proxmox"
+                "name": "Alfa"
             },
             {
-                "commandline": "ssh unifi",
+                "commandline": "ssh unifi-tilaa",
                 "guid": "{7f802ff3-64f3-5dde-b1a9-82e0d559374c}",
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
-                "name": "Unifi"
+                "name": "Unifi-Tilaa"
             },
             {
-                "commandline": "ssh helixcore",
+                "commandline": "ssh helix-core",
                 "guid": "{c5754273-9316-5203-b94e-89cf0de29e2c}",
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
                 "name": "Helix Core"
@@ -89,6 +89,13 @@
                 "guid": "{18fd6fb2-d14e-49b2-8eff-7a97ae9d7660}",
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\Fedora_icon_2021.png",
                 "name": "Docker"
+            },
+            {
+                "commandline": "ssh unifi",
+                "guid": "{dd949e8e-951d-4a6e-960c-8abefb86d13d}",
+                "hidden": false,
+                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\CoF-2022_solid+O.png",
+                "name": "Unifi"
             }
         ]
     },
