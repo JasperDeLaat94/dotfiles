@@ -55,12 +55,6 @@
                 "name": "Helix Core"
             },
             {
-                "commandline": "ssh nextcloud",
-                "guid": "{a1676a84-c1c7-5196-ba46-9175a338f92b}",
-                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
-                "name": "Nextcloud"
-            },
-            {
                 "commandline": "ssh jasperdelaat",
                 "guid": "{f511eb69-a0c3-4fee-9d72-4bce39395ca3}",
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\CoF-2022_solid+O.png",
@@ -89,6 +83,13 @@
                 "guid": "{18fd6fb2-d14e-49b2-8eff-7a97ae9d7660}",
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\Fedora_icon_2021.png",
                 "name": "Docker"
+            },
+            {
+                "commandline": "ssh nextcloud-02",
+                "guid": "{a60cb996-fe82-46d2-9f03-41467b5d4729}",
+                "hidden": false,
+                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\CoF-2022_solid+O.png",
+                "name": "Nextcloud-02"
             },
             {
                 "commandline": "ssh unifi",
