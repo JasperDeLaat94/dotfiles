@@ -2,6 +2,7 @@
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": [],
+    "alwaysShowNotificationIcon": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -11,30 +12,25 @@
         "defaults": 
         {
             "closeOnExit": "always",
-            "colorScheme": "Retro",
+            "colorScheme": "Campbell",
             "experimental.retroTerminalEffect": false,
             "font": 
             {
-                "face": "mononoki Nerd Font Mono",
-                "size": 13
+                "face": "Mononoki Nerd Font Mono",
+                "size": 13.0
             },
-            "opacity": 50,
-            "useAcrylic": true
+            "intenseTextStyle": "all",
+            "opacity": 80,
+            "useAcrylic": true,
+            "useAtlasEngine": true
         },
         "list": 
         [
             {
-                "elevate": false,
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore"
-            },
-            {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": true,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
             },
             {
                 "commandline": "ssh alfa",
@@ -81,14 +77,12 @@
             {
                 "commandline": "ssh nextcloud-02",
                 "guid": "{a60cb996-fe82-46d2-9f03-41467b5d4729}",
-                "hidden": false,
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\CoF-2022_solid+O.png",
                 "name": "Nextcloud-02"
             },
             {
                 "commandline": "ssh unifi",
                 "guid": "{dd949e8e-951d-4a6e-960c-8abefb86d13d}",
-                "hidden": false,
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\CoF-2022_solid+O.png",
                 "name": "Unifi"
             }
@@ -328,7 +322,52 @@
         }
     ],
     "tabSwitcherMode": "inOrder",
-    "themes": [],
+    "theme": "system",
+    "themes": 
+    [
+        {
+            "name": "legacyDark",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacyLight",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacySystem",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "system",
+                "useMica": false
+            }
+        }
+    ],
     "useAcrylicInTabRow": true,
     "windowingBehavior": "useAnyExisting"
 }
