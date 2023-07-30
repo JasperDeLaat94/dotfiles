@@ -7,6 +7,12 @@
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "minimizeToNotificationArea": true,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
@@ -39,6 +45,12 @@
                 "name": "Alfa"
             },
             {
+                "commandline": "ssh rpi-01",
+                "guid": "{fe782a8f-c998-471f-b2da-de95dc56c57d}",
+                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\RPi-Logo-SCREEN.png",
+                "name": "RPi-01"
+            },
+            {
                 "commandline": "ssh helix-core",
                 "guid": "{c5754273-9316-5203-b94e-89cf0de29e2c}",
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
@@ -55,18 +67,6 @@
                 "guid": "{cb595232-6200-4244-af77-fbfcb77a5fba}",
                 "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\truenas.png",
                 "name": "TrueNAS"
-            },
-            {
-                "commandline": "ssh satisfactory",
-                "guid": "{fe52a27e-5c17-4a30-a3bc-b82cd7b8cea9}",
-                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\cof_orange_hex.png",
-                "name": "Satisfactory"
-            },
-            {
-                "commandline": "ssh factorio",
-                "guid": "{83be53c0-a7ae-497a-9dea-b5170aa76ca6}",
-                "icon": "%userprofile%\\Nextcloud\\WindowsTerminalIcons\\CoF-2022_solid+O.png",
-                "name": "Factorio"
             },
             {
                 "commandline": "ssh docker",
